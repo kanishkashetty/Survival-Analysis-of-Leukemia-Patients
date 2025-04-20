@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from lifelines import KaplanMeierFitter, CoxPHFitter
 
 # Load your data (you can replace this with your real dataset)
-df = pd.read_csv("C:/Users/Kanishka K/Downloads/archive/Standard Survival Data Format.csv") 
+df = pd.read_csv("Standard Survival Data Format.csv") 
 df = df.rename(columns={
     'Patient (i)': 'Patient',
     'Remission Time (t)': 'Remission_Time',
